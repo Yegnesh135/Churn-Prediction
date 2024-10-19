@@ -20,22 +20,9 @@ Customer Segment: Label Encoding
 Prefered Communication Channel: One-hot Encoding
 
 The correlation matrix of the data shows a week correlation among features with the target (Churn Flag) as follows:
-age                                       -0.236589
-Marital Status                            -0.377399
-Number of Dependents                       0.310908
-Occupation                                 0.309046
-Income                                     0.228553
-Education Level                            0.293900
-Customer Tenure                            0.034394
-Customer Segment                           0.247973
-Credit Score                             -18.280242
-Credit History Length                      0.289909
-Outstanding Loans                         -0.114636
-Churn Flag                               100.000000
-Balance                                  -49.998101
-NumOfProducts                            -17.908250
-NumComplaints                             20.462633
-Gender_Male                                0.128036
+
+![image](https://github.com/user-attachments/assets/2ea635e5-62fb-43cb-b1a7-891b05fa48ac)
+
 ![Correlation map](https://github.com/user-attachments/assets/0259e5d6-4f29-41f8-885e-805411415281)
 
 After the data cleaning and transformation steps, the dataset was split into training and testing subsets to ensure effective model evaluation. During the analysis of the training data, it became evident that the dataset was imbalanced, which could potentially impact the model's performance by favoring the majority class.
